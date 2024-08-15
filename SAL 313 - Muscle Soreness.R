@@ -18,6 +18,7 @@ MuscleSoreness <- MuscleSoreness %>% distinct()
 Wellness <- read_excel("Wellness.xlsx")
 Wellness <- Wellness %>% mutate(date = date(ymd_hms(Start)))
 Wellness <- Wellness %>% distinct()
+Catapult <- read_excel("Catapult.xlsx")
 Catapult <- Catapult %>% mutate(date = date(ymd_hms(Start)))
 Catapult <- Catapult %>% distinct()
 
