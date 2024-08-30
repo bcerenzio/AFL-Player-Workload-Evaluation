@@ -7,5 +7,6 @@ For my SAL 313 Final, my group was tasked with using anonymous AFL player data s
 
 - Muscle_Soreness.R
     - OLS regression to see if Wellness or Soreness had any effect on total session load. I added Session Duration, Acute Workload, Time in Season, and a Session Type to control for other factors that impact Session Load. I created the Session Type variable using k-means clustering on the Session Load variable to account for practices that were meant to be lighter.
-- 
+- XGBoost Code
+    - 
 </h4>
